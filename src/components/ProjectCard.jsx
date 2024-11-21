@@ -2,26 +2,28 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import CardLink from "react-bootstrap/CardLink";
+import { Icon } from "react-icons-kit";
+import { github } from "react-icons-kit/icomoon/github";
+import {eye} from 'react-icons-kit/icomoon/eye'
 
 function ProjectCard(props) {
-  const {img}= props
+  const {img, title, description}= props
 
   return (
     <div>
-      <Card className="product-card" style={{ width: "18rem" }}>
-      <Card.Body>
-        <Card.Img variant="top" src={img} />
+      <Card className="project-card" style={{backgroundImage: `url(${img})`,
+  }}>
+      
+
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
+          <Card.Title><strong>{title}</strong></Card.Title>
           <Card.Text>
-            Description
+            {description}
           </Card.Text>
-          <Card.Link href="#">Another Link</Card.Link>
-          <Card.Link href="#">Another Link</Card.Link> 
-          <Button variant="primary">Demo</Button>
-          <Button variant="primary">Front Repository</Button>
-          <Button variant="secondary">Back Repository</Button> 
-        </Card.Body>
+        <div className="project-btn-box">
+          <Button className="project-btn" variant="primary"><Icon icon={eye} /></Button>
+          <Button className="project-btn" variant="primary"><Icon icon={github} /></Button>
+          </div>
         </Card.Body>
       </Card>
     </div>

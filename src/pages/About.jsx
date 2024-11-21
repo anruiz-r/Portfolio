@@ -9,7 +9,7 @@ function About() {
   return (
     <div className="section" id="about-section">
       <div id="about-info">
-        <h2>About me</h2>
+        <h2>About me 🌻</h2>
         <p>
         👋 Hi, I’m Angela, a Junior Frontend Developer transitioning from a career in tourism to tech. With over 5 years of experience as a receptionist, I’ve developed exceptional communication, problem-solving, and teamwork skills, which now enhance my approach to building user-centered web solutions.
 
