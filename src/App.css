@@ -324,7 +324,6 @@ nav li:hover {
   background-color: #3498db;
   border: black 0.5px solid;
   transition: background-color 0.3s ease, color 0.3s ease;
-  
 }
 
 .project-btn:hover {
@@ -390,6 +389,7 @@ nav li:hover {
 
 .card-body p {
   margin: 1rem;
+  font-size: 0.75rem;
 }
 
 .project-card:hover .card-body {
@@ -403,6 +403,7 @@ nav li:hover {
 /* CONTACT SECTION */
 
 #contact-section {
+  
   background: linear-gradient(135deg, #4b6cb7, #8e44ad);
   color: white;
   margin: 0;
@@ -507,6 +508,18 @@ nav li:hover {
 
   #projects-list {
     grid-template-columns: 1fr;
+  }
+
+  .project-btn {
+    font-size: 10px;
+  }
+  .card-body {
+    font-size: 0.8rem;
+  }
+
+  .card-body p {
+    margin: 0.9rem;
+    font-size: 0.6rem;
   }
 
   .banner {

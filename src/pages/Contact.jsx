@@ -19,7 +19,7 @@ function Contact() {
           <Icon icon={phone} /> +34 673253209
         </a>
         <a href="mailto:hireangelauiz@gmail.com">
-          <Icon icon={ic_email_outline} /> hireangelauiz@gmail.com
+          <Icon icon={ic_email_outline} /> hireangelaruiz@gmail.com
         </a>
         <Link
           to={"https://www.linkedin.com/in/angela-ruiz-rodriguez"}
