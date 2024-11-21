@@ -8,8 +8,9 @@ import imgProject3 from "../assets/project3-craftshop.png";
 
 function Projects() {
   return (
-    <div id="projects-section" className='screen'>
-    Take a look to my work. 
+    <div id="projects-section" className='section'>
+    <h2>Check out my work</h2>
+    <p>These are the projects I´ve been working on lately. I hope you like them!</p>
     <div id='projects-list'>
       <ProjectCard img={imgProject1}/>
       <ProjectCard img={imgProject2} />

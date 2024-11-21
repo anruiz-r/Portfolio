@@ -7,7 +7,7 @@ import { linkedin } from "react-icons-kit/icomoon/linkedin";
 
 function About() {
   return (
-    <div className="screen" id="about-section">
+    <div className="section" id="about-section">
       <div id="about-info">
         <h2>About me</h2>
         <p>
@@ -15,7 +15,7 @@ function About() {
 
 <br /><br />💻 After completing the IronHack Full Stack Web Development Bootcamp, I gained solid knowledge in HTML, CSS, JavaScript (ES6), and the MERN stack. Currently, I’m studying at 42 Málaga, where I’m sharpening my coding skills, tackling complex challenges, and learning in a collaborative, peer-driven environment.
 
-<br /> <br />🚀 I’m passionate about learning, growth, and contributing to meaningful projects. Soon, I’ll begin training in Blue Team Cybersecurity, expanding my expertise to create secure and reliable digital experiences.
+<br /> <br />🚀 I’m passionate about learning, growth, and contributing to meaningful projects.I’ll soon be training in Blue Team Cybersecurity, expanding my expertise towards web security. I’m naturally curious and always looking for new opportunities to learn and grow professionally. Outside of work, I enjoy exploring different cultures (I’ve worked in three languages!) and am committed to making a positive impact through technology.
 
 <br /><br />✨ When I’m not coding or diving into tech, I enjoy getting lost in a good book, exploring new destinations, and experimenting with DIY crafts. I’m also passionate about learning new things—whether it’s a skill, a concept, or just a random fun fact.
 <br /><br />🤝 Let’s connect! Check out my work on GitHub or reach out on LinkedIn—I’d love to collaborate and grow together in the tech world.
@@ -29,12 +29,12 @@ function About() {
             target="_blank"
           >
             <button className="blue-btn">
-              <Icon icon={linkedin} /> LinkedIn
+              <Icon icon={linkedin} /> LINKEDIN
             </button>
           </Link>
           <Link to={"https://github.com/anruiz-r"} target="_blank">
             <button className="blue-btn">
-              <Icon icon={github} /> GitHub
+              <Icon icon={github} /> GITHUB
             </button>
           </Link>
         </div>

@@ -7,21 +7,21 @@ function ContactForm() {
     <div id='contact-box' >
         <Form>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Name</Form.Label>
+        <Form.Label className='label'>Name</Form.Label>
         <br />
-        <Form.Control className='input' type="text" placeholder="Enter your name" />
+        <Form.Control className='input' type="text" placeholder="Introduce yourself" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
+        <Form.Label className='label'>Email address</Form.Label>
         <br />
-        <Form.Control className='input' type="email" placeholder="Enter email" />
+        <Form.Control className='input' type="email" placeholder="Enter contact email" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-        <Form.Label>Message</Form.Label>
+        <Form.Label className='label'>Message</Form.Label>
         <br />
-        <Form.Control className='input' as="textarea" rows={3} placeholder="Leave your message" />
+        <Form.Control className='input' as="textarea" rows={1} placeholder="Leave your message here" />
       </Form.Group>
 
   

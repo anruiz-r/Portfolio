@@ -47,6 +47,8 @@ button {
   background-color: #4b6cb7;
   width: fit-content;
   margin: 1rem;
+  font-size: 12px;
+  padding: 10px 20px;
 }
 
 button:hover {
@@ -96,10 +98,10 @@ button:hover {
 }
 @keyframes removeBorder {
   from {
-    border-right: 3px solid black; /* Mantén el borde visible al principio */
+    border-right: 3px solid black; 
   }
   to {
-    border-right: none; /* Elimina el borde al final */
+    border-right: none; 
   }
 }
 
@@ -120,17 +122,13 @@ button:hover {
 .dinamic-screen {
   flex: 1;
   background-color: whitesmoke;
+  margin-top: 3rem;
 }
 
-.screen {
+.section {
   margin: 0;
   text-align: center;
-}
-
-#about-section,
-#projects-section,
-#contact-section {
-  min-height: 100vh; /* Asegura que cada sección tenga una altura suficiente */
+  min-height: 100vh; 
 }
 
 #header {
@@ -181,6 +179,7 @@ nav {
   align-items: center;
   padding: 0.5rem;
   padding-right: 20vw;
+  margin-bottom: 0;
   height: 3rem;
   background: linear-gradient(135deg, #4b6cb7, #8e44ad);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -281,7 +280,7 @@ nav li:hover {
 
 #about-info {
   width: 67%;
-  padding: 20px 40px;
+  padding: 15px 35px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -298,17 +297,17 @@ nav li:hover {
 }
 
 #about-info h2 {
-  margin: 15px 0 0 0;
+  margin: 10px 0 0 0;
   text-align: center;
 }
 
 #about-info p {
-  padding: 10px 60px;
+  padding: 3px 40px;
   font-size: 1.1vw;
 }
 
 #about-info div {
-  margin: 1px 0 15px 0;
+  margin: 1px 0 25px 0;
 }
 
 #about-pic img {
@@ -324,7 +323,7 @@ nav li:hover {
 
 
 #projects-section {
-  min-height: 75vh;
+ height:fit-content;
 }
 
 #projects-list {
@@ -368,18 +367,58 @@ nav li:hover {
   flex-grow: 1;
 }
 
-.contact {
+
+/* CONTACT SECTION */
+
+#contact-section {
   background: linear-gradient(135deg, #4b6cb7, #8e44ad);
   color: white;
+  margin: 0;
+  padding: 2vh;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
+
+#contact-section p {
+  width: 50%;
+  text-align: center;
+}
+
+#contact-details {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 1rem;
+padding: 5px;
+text-align: left;
+margin: 0 auto;
+}
+
+#contact-details a {
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+
+/* Contact form component  */
 
 #contact-box {
   padding: 2rem;
   border-radius: 15px;
-  border: 0.5px solid #4b6cb7;
+  border: 3px solid #3498db;
   width: 40%;
   margin: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
+.mb-3 {
+  text-align: left;
+  padding: 0.8rem;
+}
+
 .input {
   font-size: 14px;
   color: white;
@@ -387,7 +426,18 @@ nav li:hover {
   border: none;
   border-bottom: solid 1px white;
   font-family: "Poppins", sans-serif;
+  width: 95%;
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
 }
+
+.form-label {
+  
+  width: 100%;
+}
+
+/* FOOTER */
 
 #footer {
   position: relative;
@@ -464,8 +514,8 @@ nav li:hover {
   }
 
   #about-info {
-    width: 100%; /* La información ocupa todo el ancho */
-    text-align: center; /* Centra el texto */
+    width: 100%; 
+    text-align: center; 
     margin-bottom: 1.5rem;
   }
 
@@ -482,7 +532,7 @@ nav li:hover {
 
   #about-pic img {
     width: 100%;
-    height: auto; /* Mantiene la proporción de la imagen en pantallas pequeñas */
+    height: auto; 
     object-fit: cover;
   }
 }
