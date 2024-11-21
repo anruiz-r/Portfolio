@@ -9,35 +9,18 @@ function About() {
   return (
     <div className="screen" id="about-section">
       <div id="about-info">
-        <h2 className="typing">About me</h2>
+        <h2>About me</h2>
         <p>
-          🎯 Desarrollador Frontend Junior en proceso de transición del sector
-          turístico al desarrollo web. Tras más de cinco años de experiencia en
-          atención al cliente en el turismo, decidí dar un giro profesional
-          hacia la tecnología. Esta decisión me llevó a completar el Bootcamp de
-          Desarrollo Web Full Stack en IronHack, donde adquirí habilidades clave
-          en HTML, CSS, JavaScript (ES6) y el stack MERN (MongoDB, Express,
-          React, Node.js), además de metodologías Agile y Testing con Jest. 📚
-          Como complemento a mi formación, participé en la Piscina de
-          Programación de 42 Málaga, un proceso de selección intensivo de 26
-          días donde adquirí bases sólidas de programación en C en un entorno de
-          aprendizaje colaborativo y autodirigido. La experiencia en 42, basada
-          en el aprendizaje entre iguales, me permitió perfeccionar mis
-          capacidades de resolución de problemas y colaboración. 🚀 Proyectos
-          destacados: CatsCooking: Un juego donde el jugador controla a un gato
-          chef en una carrera contrarreloj. Proyecto ideal para perfeccionar
-          JavaScript y DOM manipulation. Travel Stories: SPA en React que
-          permite a los usuarios compartir historias de viaje, con un backend
-          simulado y operaciones CRUD, desarrollada en equipo. CraftShop:
-          E-commerce completo con el stack MERN, que incluye autenticación,
-          roles de usuario y una interfaz adaptativa. Gran experiencia en
-          Full-Stack Development y trabajo en equipo. 👥 Lo que aporto: Mis
-          habilidades en atención al cliente me han ayudado a desarrollar una
-          gran capacidad de comunicación y un enfoque centrado en el usuario,
-          esenciales en el desarrollo de software. Disfruto trabajar en equipo y
-          busco aprender continuamente, especialmente en entornos colaborativos
-          y dinámicos donde se valora la creatividad y la innovación. 🔍 ¿Buscas
-          un desarrollador junior con ganas de aprender y aportar? ¡Conectemos!
+        👋 Hi, I’m Angela, a Junior Frontend Developer transitioning from a career in tourism to tech. With over 5 years of experience as a receptionist, I’ve developed exceptional communication, problem-solving, and teamwork skills, which now enhance my approach to building user-centered web solutions.
+
+<br /><br />💻 After completing the IronHack Full Stack Web Development Bootcamp, I gained solid knowledge in HTML, CSS, JavaScript (ES6), and the MERN stack. Currently, I’m studying at 42 Málaga, where I’m sharpening my coding skills, tackling complex challenges, and learning in a collaborative, peer-driven environment.
+
+<br /> <br />🚀 I’m passionate about learning, growth, and contributing to meaningful projects. Soon, I’ll begin training in Blue Team Cybersecurity, expanding my expertise to create secure and reliable digital experiences.
+
+<br /><br />✨ When I’m not coding or diving into tech, I enjoy getting lost in a good book, exploring new destinations, and experimenting with DIY crafts. I’m also passionate about learning new things—whether it’s a skill, a concept, or just a random fun fact.
+<br /><br />🤝 Let’s connect! Check out my work on GitHub or reach out on LinkedIn—I’d love to collaborate and grow together in the tech world.
+
+
         </p>
 
         <div>

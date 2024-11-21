@@ -11,7 +11,7 @@ import BootstrapNav from "./components/BootstrapNav.jsx";
 function App() {
   return (
     <>
-      <BootstrapNav/>
+      <NavBar/>
       <div className="dinamic-screen">
         <Header />
         <About />
