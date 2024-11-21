@@ -1,16 +1,19 @@
 import React from "react";
-import NavBar from "./NavBar";
-import imgMe from "../assets/me-pic.jpg";
+import { Link as ScrollLink } from "react-scroll";
+import imgMe from "../assets/IMG_02753.jpg";
 
 function Header() {
   return (
     <div id="header">
-      <NavBar />
       <div className="banner">
-        <img src={imgMe} alt="" />
-        <div>
+        <img src={imgMe} alt="profile pic" />
+        <div className="banner-info">
           <h1>Hi, this is Angela Ruiz</h1>
-          <h2>Junior Web Developer</h2>
+          <h2 className="typing">Junior Web Developer</h2>
+          <div>
+          <ScrollLink to="contact-section" smooth={true} duration={500} offset={-70} ><button className="white-btn">Contact me</button></ScrollLink>
+            <a href="/cv.pdf" download ><button className="white-btn">My CV</button></a> 
+          </div>
         </div>
       </div>
     </div>
