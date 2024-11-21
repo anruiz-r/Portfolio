@@ -504,6 +504,7 @@ nav li:hover {
 }
 
 @media (max-width: 768px) {
+
   #projects-list {
     grid-template-columns: 1fr;
   }
@@ -564,6 +565,27 @@ nav li:hover {
     height: auto;
     object-fit: cover;
   }
+
+  #contact-section {
+    font-size: 4vw;
+  }
+  #contact-box {
+    width: 70%;
+  }
+
+  #contact-details {
+    
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+    text-align: center;
+    
+  }
+
+  #contact-section p {
+    width: 80%;
+  }
+
 }
 
 /* FONT */
