@@ -251,10 +251,18 @@ nav li:hover {
     padding: 0;
     margin: 2px auto;
     display: none;
+    
+    /*
+    max-height: 0;
+    overflow: hidden;  Oculta el contenido cuando está colapsado
+    opacity: 0;  Para un efecto más suave 
+    transition: max-height 0.2s ease-in-out, opacity 0.2s ease-in-out; */
   }
 
   nav.active ul {
     display: flex;
+    /* max-height: 500px; 
+    opacity: 1; */
   }
 
   nav ul li {
@@ -315,6 +323,10 @@ nav li:hover {
 }
 
 /* PROJECTS SECTION  */
+
+#projects-section {
+  margin-bottom: 1.5rem;
+}
 
 .project-btn {
   width: fit-content;
@@ -482,6 +494,7 @@ nav li:hover {
   align-items: center;
   width: 100%;
   height: min-content;
+  box-sizing: border-box;
 
   padding: 20px;
   margin-top: auto;

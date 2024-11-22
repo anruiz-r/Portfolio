@@ -52,17 +52,6 @@ function NavBar() {
         </li>
         <li>
           <Link
-            to="projects-section"
-            smooth={true}
-            duration={500}
-            offset={-70}
-            onClick={toggleMenu}
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
             to="contact-section"
             smooth={true}
             duration={500}
@@ -70,6 +59,17 @@ function NavBar() {
             onClick={toggleMenu}
           >
             Contact
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="projects-section"
+            smooth={true}
+            duration={500}
+            offset={-70}
+            onClick={toggleMenu}
+          >
+            Projects
           </Link>
         </li>
       </ul>

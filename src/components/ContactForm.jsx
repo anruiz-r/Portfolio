@@ -41,13 +41,13 @@ function ContactForm() {
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label className='label'>Email address</Form.Label>
         <br />
-        <Form.Control className='input' type="email" placeholder="Enter contact email" name="user_email"  />
+        <Form.Control className='input' type="email" placeholder="Enter contact email" name="user_email" required />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
         <Form.Label className='label'>Message</Form.Label>
         <br />
-        <Form.Control className='input' as="textarea" rows={1} placeholder="Leave your message here" name="message" />
+        <Form.Control className='input' as="textarea" rows={1} placeholder="Leave your message here" name="message" required/>
       </Form.Group>
 
       <Button variant="primary" type="submit"  className='white-btn'>
