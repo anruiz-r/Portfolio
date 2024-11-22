@@ -9,7 +9,7 @@ function Header() {
         <img src={imgMe} alt="profile pic" />
         <div className="banner-info">
           <h1>Hi, this is Angela Ruiz</h1>
-          <h2 className="typing">Junior Web Developer</h2>
+          <h2 className="typing">Junior Web Developer </h2>
           <div>
           <ScrollLink to="contact-section" smooth={true} duration={500} offset={-70} ><button className="white-btn">Contact me</button></ScrollLink>
             <a href="/cv.pdf" download ><button className="white-btn">My CV</button></a> 
