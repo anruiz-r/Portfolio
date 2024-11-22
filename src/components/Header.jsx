@@ -8,7 +8,7 @@ function Header() {
       <div className="banner">
         <img src={imgMe} alt="profile pic" />
         <div className="banner-info">
-          <h1>Hi, this is Angela Ruiz</h1>
+          <h1>Hi! This is Angela Ruiz</h1>
           <h2 className="typing">Junior Web Developer </h2>
           <div>
           <ScrollLink to="contact-section" smooth={true} duration={500} offset={-70} ><button className="white-btn">Contact me</button></ScrollLink>

@@ -327,6 +327,8 @@ nav li:hover {
 
 #projects-section {
   margin-bottom: 1.5rem;
+  min-height: 50vh;
+  height: fit-content;
 }
 
 .project-btn {
@@ -348,10 +350,6 @@ nav li:hover {
   padding: 0.4rem;
 }
 
-#projects-section {
-  height: fit-content;
-}
-
 
 #projects-list {
   display: grid;
@@ -359,6 +357,7 @@ nav li:hover {
   width: 80%;
   gap: 2rem;
   margin: 2rem auto;
+  text-align: center;
 }
 
 #projects-list div {

@@ -7,7 +7,7 @@ import imgProject3 from "../assets/project3-craftshop.png";
 
 function Projects() {
   return (
-    <div id="projects-section" className="section">
+    <div id="projects-section" >
       <h2>Check out my work 👾</h2>
       <p>
         These are the projects I´ve been working on lately. I hope you like
