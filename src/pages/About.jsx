@@ -26,13 +26,13 @@ function About() {
         <div>
           <Link
             to={"https://www.linkedin.com/in/angela-ruiz-rodriguez"}
-            target="_blank"
+            target="_blank" aria-label="Link to my LinkedIn profile"
           >
             <button className="blue-btn">
               <Icon icon={linkedin} /> LINKEDIN
             </button>
           </Link>
-          <Link to={"https://github.com/anruiz-r"} target="_blank">
+          <Link to={"https://github.com/anruiz-r"} target="_blank" aria-label="Link to my GitHub profile" >
             <button className="blue-btn">
               <Icon icon={github} /> GITHUB
             </button>
@@ -40,7 +40,7 @@ function About() {
         </div>
       </div>
       <div id="about-pic">
-        <img src={aboutPic} alt="" />
+        <img src={aboutPic} alt="" loading="lazy"/>
       </div>
     </div>
   );

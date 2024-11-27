@@ -11,11 +11,11 @@ function Footer() {
     <div id="footer">
       <small>© 2024 Coded by Angela Ruiz</small>
       <div className="footer-icons">
-      <a href={`tel:+34 673253209`} ><Icon icon={phone}/></a>
-        <Link to={"https://github.com/anruiz-r"} target="_blank" >
+      <a href={`tel:+34 673253209`} aria-label="Link to call me by phone" ><Icon icon={phone}/></a>
+        <Link to={"https://github.com/anruiz-r"} target="_blank" aria-label="Link to my GitHub profile" >
           <Icon icon={github} />
         </Link>
-        <Link to={"https://www.linkedin.com/in/angela-ruiz-rodriguez"} target="_blank" ><Icon icon={linkedin}/></Link>
+        <Link to={"https://www.linkedin.com/in/angela-ruiz-rodriguez"} target="_blank" aria-label="Link to my LinkedIn profile" ><Icon icon={linkedin}/></Link>
       </div>
     </div>
   );
