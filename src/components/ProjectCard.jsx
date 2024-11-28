@@ -18,16 +18,15 @@ function ProjectCard(props) {
           </Card.Title>
           <Card.Text>{description}</Card.Text>
           <div className="project-btn-box">
-            <Link to={linkDemo} target="_blank">
-              <Button className="project-btn" variant="primary">
+            <Link to={linkDemo} target="_blank" aria-label="Link to project demo">
+              <Button className="project-btn" variant="primary" >
                 <Icon icon={eye} size={12}/>
               </Button>
             </Link>
-            <Link to={linkCode} target="_blank">
+            <Link to={linkCode} target="_blank" aria-label="Link to project code">
               <Button
                 className="project-btn"
                 variant="primary"
-                onClick={linkCode}
               >
                 <Icon icon={github} size={12} />
               </Button>

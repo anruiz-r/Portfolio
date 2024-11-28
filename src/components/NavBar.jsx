@@ -2,10 +2,21 @@ import React from "react";
 import { Link } from "react-scroll";
 import { Icon } from "react-icons-kit";
 import { menu } from "react-icons-kit/icomoon/menu";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  useEffect(() => {
+    let timer;
+    if (isMenuOpen) {
+      timer = setTimeout(() => {
+        setIsMenuOpen(false);
+      }, 3000); 
+    }
+    
+    return()=> clearTimeout(timer);
+  }, [isMenuOpen]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
